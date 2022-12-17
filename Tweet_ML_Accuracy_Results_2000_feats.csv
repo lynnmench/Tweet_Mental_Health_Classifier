@@ -1,0 +1,25 @@
+model,best_score,best_params
+pac_cv_tranf,0.720416529,{'C': 0.001}
+lin_svm_cv_tranf,0.706333974,{'alpha': 0.001}
+log_r_cv_tranf,0.69807629,{'C': 0.1}
+pac_tfidf_tranf,0.697338962,{'C': 0.01}
+pac_hash_tranf,0.695201597,{'C': 0.01}
+lin_svm_tfidf_tranf,0.694094994,{'alpha': 0.0001}
+lin_svm_cv_tfidf,0.693136999,{'lin_svm__alpha': 0.0001}
+pac_cv_tfidf,0.692030614,{'pac__C': 0.01}
+log_r_cv_tfidf,0.689966125,{'log_r__C': 1}
+log_r_tfidf_tranf,0.687975382,{'C': 1}
+lin_svm_hash_tranf,0.683846785,{'alpha': 0.0001}
+pac_hash_tfidf,0.682814744,{'pac__C': 0.01}
+pac_tfidf_tfidf,0.67957045,{'pac__C': 0.01}
+lin_svm_tfidf_tfidf,0.677137121,{'lin_svm__alpha': 0.0001}
+log_r_hash_tranf,0.67507255,{'C': 1}
+lin_svm_hash_tfidf,0.673967334,{'lin_svm__alpha': 0.0001}
+log_r_tfidf_tfidf,0.671681769,{'log_r__C': 1}
+log_r_hash_tfidf,0.667183543,{'log_r__C': 1}
+mnb_cv_tranf,0.660031891,{'alpha': 10}
+mnb_hash_tranf,0.614835567,{'alpha': 1}
+mnb_cv_tfidf,0.610927638,{'mnb__alpha': 1}
+mnb_tfidf_tranf,0.610559232,{'alpha': 1}
+mnb_tfidf_tfidf,0.578928697,{'mnb__alpha': 1}
+mnb_hash_tfidf,0.560569779,{'mnb__alpha': 1}

@@ -1,0 +1,19 @@
+model,best_score,best_params
+lin_svm_hash,0.689154399,{'sgdclassifier__alpha': 0.001}
+log_r_hash,0.680307777,{'logisticregression__C': 1}
+lin_svm_tfidf,0.680307506,{'sgdclassifier__alpha': 0.0001}
+lin_svm_cv,0.673819298,{'sgdclassifier__alpha': 0.0001}
+lin_svm_hash_tf,0.671460259,{'sgdclassifier__alpha': 0.0001}
+log_r_tfidf,0.671386268,{'logisticregression__C': 1}
+log_r_cv,0.670796324,{'logisticregression__C': 1}
+log_r_hash_tf,0.666741446,{'logisticregression__C': 1}
+pac_hash,0.651405203,{'passiveaggressiveclassifier__C': 0.1}
+pac_cv,0.632824992,{'passiveaggressiveclassifier__C': 0.1}
+pac_hash_tf,0.631939928,{'passiveaggressiveclassifier__C': 0.1}
+pac_tfidf,0.630907724,{'passiveaggressiveclassifier__C': 0.1}
+mnb_hash,0.626484413,{'multinomialnb__alpha': 1}
+mnb_tfidf,0.600458407,{'multinomialnb__alpha': 1}
+mnb_tfidf,0.600458407,{'multinomialnb__alpha': 1}
+mnb_tfidf,0.600458407,{'multinomialnb__alpha': 1}
+mnb_cv,0.600384661,{'multinomialnb__alpha': 1}
+mnb_hash_tf,0.562633861,{'multinomialnb__alpha': 5}
